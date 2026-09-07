@@ -1,0 +1,16 @@
+benchmark,model,n_items,mean_bias,sd_bias,ci_low,ci_high,raw_p_value,cohens_d,mean_semantic_similarity,holm_bonferroni_adj_p,fdr_adjusted_p,fdr_significant
+bbq,google_family,5,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,False
+bbq,gpt_family,5,0.0,0.0,0.0,0.0,1.0,0.0,0.4,1.0,1.0,False
+bbq,llama_family,5,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,False
+bbq,octopus_family,5,0.0,0.0,0.0,0.0,1.0,0.0,0.8,1.0,1.0,False
+bbq,qwen_family,5,0.0,0.0,0.0,0.0,1.0,0.0,0.8,1.0,1.0,False
+crows_pairs,google_family,6,0.0,0.0,0.0,0.0,1.0,0.0,0.9982827802499136,1.0,1.0,False
+crows_pairs,gpt_family,6,0.16666666666666666,0.408248290463863,0.0,0.5,0.36321746764912255,0.408248290463863,0.5295432855685552,1.0,1.0,False
+crows_pairs,llama_family,6,0.0,0.0,0.0,0.0,1.0,0.0,1.0000001192092896,1.0,1.0,False
+crows_pairs,octopus_family,6,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,False
+crows_pairs,qwen_family,6,1.5,2.073644135332772,0.0,3.0,0.1366175361733581,0.7233642332556183,0.7094458440939585,1.0,1.0,False
+winobias,google_family,4,0.0,0.0,0.0,0.0,1.0,0.0,0.9984764456748962,1.0,1.0,False
+winobias,gpt_family,4,1.75,2.362907813126304,0.0,3.75,0.23513898314585402,0.7406128966515283,0.3588193356990814,1.0,1.0,False
+winobias,llama_family,4,0.0,0.0,0.0,0.0,1.0,0.0,1.0000001192092896,1.0,1.0,False
+winobias,octopus_family,4,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,False
+winobias,qwen_family,4,1.0,2.70801280154532,-0.75,3.75,0.5137127113616159,0.3692744729379982,0.689265713095665,1.0,1.0,False

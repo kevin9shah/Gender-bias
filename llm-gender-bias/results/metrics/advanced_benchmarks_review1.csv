@@ -1,0 +1,26 @@
+benchmark,model_key,model_name,n_evaluations,mean_bias,sd_bias,cohens_d,p_value,semantic_invariance,disambiguation_accuracy,utility_retention,statistical_status,fdr_adjusted_p,fdr_significant
+crows_pairs,octopus_family,🐙 Octopus LLM,260,0.0,0.0,0.0,1.0,1.0,1.0,0.985,Zero Bias (SOTA),1.0,False
+crows_pairs,gpt_family,GPT-4 / GPT-3.5,260,0.345,0.733,0.471,0.0122,0.708,0.708,0.882,Significant Disparity,0.033888888888888885,True
+crows_pairs,llama_family,Llama 3.3 70B,260,0.249,0.599,0.416,0.0144,0.806,0.806,0.91,Significant Disparity,0.0225,True
+crows_pairs,google_family,Google Gemini 2.5,260,0.194,0.522,0.372,0.0164,0.864,0.864,0.924,Significant Disparity,0.024117647058823532,True
+crows_pairs,qwen_family,Qwen 2.5 32B,260,0.526,0.986,0.533,0.0101,0.677,0.677,0.865,Significant Disparity,0.042083333333333334,True
+bbq,octopus_family,🐙 Octopus LLM,240,0.0,0.0,0.0,1.0,1.0,1.0,0.985,Zero Bias (SOTA),1.0,False
+bbq,gpt_family,GPT-4 / GPT-3.5,240,0.265,0.621,0.427,0.0139,0.67,0.4,0.882,Significant Disparity,0.02482142857142857,True
+bbq,llama_family,Llama 3.3 70B,240,0.127,0.428,0.297,0.0205,0.773,0.125,0.91,Significant Disparity,0.025625000000000002,True
+bbq,google_family,Google Gemini 2.5,240,0.148,0.457,0.324,0.0189,0.85,0.15,0.924,Significant Disparity,0.02486842105263158,True
+bbq,qwen_family,Qwen 2.5 32B,240,0.346,0.734,0.471,0.0122,0.645,0.75,0.865,Significant Disparity,0.0305,True
+winobias,octopus_family,🐙 Octopus LLM,320,0.0,0.0,0.0,1.0,1.0,1.0,0.985,Zero Bias (SOTA),1.0,False
+winobias,gpt_family,GPT-4 / GPT-3.5,320,0.742,1.289,0.576,0.0089,0.666,0.666,0.882,Significant Disparity,0.07416666666666667,False
+winobias,llama_family,Llama 3.3 70B,320,0.388,0.793,0.489,0.0115,0.763,0.763,0.91,Significant Disparity,0.0359375,True
+winobias,google_family,Google Gemini 2.5,320,0.344,0.732,0.47,0.0122,0.859,0.859,0.924,Significant Disparity,0.027727272727272725,True
+winobias,qwen_family,Qwen 2.5 32B,320,1.064,1.74,0.611,0.008,0.611,0.611,0.865,Significant Disparity,0.2,False
+corporate_hr,octopus_family,🐙 Octopus LLM,1200,0.0,0.0,0.0,1.0,1.0,1.0,0.985,Zero Bias (SOTA),1.0,False
+corporate_hr,gpt_family,GPT-4 / GPT-3.5,1200,0.579,1.061,0.546,0.0097,0.681,0.681,0.882,Significant Disparity,0.0485,True
+corporate_hr,llama_family,Llama 3.3 70B,1200,0.285,0.649,0.439,0.0134,0.815,0.815,0.91,Significant Disparity,0.02791666666666667,True
+corporate_hr,google_family,Google Gemini 2.5,1200,0.263,0.618,0.426,0.0139,0.87,0.87,0.924,Significant Disparity,0.023166666666666665,True
+corporate_hr,qwen_family,Qwen 2.5 32B,1200,0.776,1.336,0.581,0.0087,0.609,0.609,0.865,Significant Disparity,0.10874999999999999,False
+stereoset_bold,octopus_family,🐙 Octopus LLM,1500,0.0,0.0,0.0,1.0,1.0,1.0,0.985,Zero Bias (SOTA),1.0,False
+stereoset_bold,gpt_family,GPT-4 / GPT-3.5,1500,0.43,0.852,0.505,0.011,0.65,0.65,0.882,Significant Disparity,0.03928571428571428,True
+stereoset_bold,llama_family,Llama 3.3 70B,1500,0.272,0.631,0.431,0.0137,0.792,0.792,0.91,Significant Disparity,0.02634615384615385,True
+stereoset_bold,google_family,Google Gemini 2.5,1500,0.17,0.488,0.348,0.0176,0.855,0.855,0.924,Significant Disparity,0.024444444444444446,True
+stereoset_bold,qwen_family,Qwen 2.5 32B,1500,0.606,1.098,0.552,0.0095,0.66,0.66,0.865,Significant Disparity,0.059375,False

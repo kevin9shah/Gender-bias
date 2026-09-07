@@ -1,0 +1,17 @@
+model,domain,mean_bias_magnitude,mean_bias_variability,mean_directional_consistency
+google_family,career_recommendation,0.0,0.0,0.0
+gpt_family,career_recommendation,0.17500000000000002,0.37673497667196126,0.25833333333333336
+llama_family,career_recommendation,0.0,0.0,0.0
+qwen_family,career_recommendation,0.4375,0.7958955658059607,0.5
+google_family,leadership,0.0,0.0,0.0
+gpt_family,leadership,0.2261904761904762,0.7085781355623766,0.3988095238095238
+llama_family,leadership,0.0,0.0,0.0
+qwen_family,leadership,0.3958333333333333,0.5033781146626889,0.4166666666666667
+google_family,occupation_association,0.0,0.0,0.0
+gpt_family,occupation_association,0.2916666666666667,0.57678459202421,0.375
+llama_family,occupation_association,0.0,0.0,0.0
+qwen_family,occupation_association,1.076388888888889,2.6673178405746776,0.4444444444444444
+google_family,recruitment,0.020833333333333332,0.05892556509887897,0.041666666666666664
+gpt_family,recruitment,0.25833333333333336,1.124992944338075,0.25
+llama_family,recruitment,0.0,0.0,0.0
+qwen_family,recruitment,0.2916666666666667,0.7613374962507314,0.375

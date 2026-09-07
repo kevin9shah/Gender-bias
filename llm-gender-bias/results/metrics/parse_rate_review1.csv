@@ -1,0 +1,5 @@
+model,parse_attempt_rate
+google_family,1.0
+gpt_family,0.9713541666666666
+llama_family,1.0
+qwen_family,1.0

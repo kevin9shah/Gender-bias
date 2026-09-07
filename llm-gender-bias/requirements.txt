@@ -1,0 +1,15 @@
+torch
+transformers
+sentence-transformers
+vaderSentiment
+pandas
+scipy
+numpy
+pyyaml
+streamlit
+matplotlib
+google-genai
+groq
+python-dotenv
+fastapi
+uvicorn
